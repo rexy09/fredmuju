@@ -1,0 +1,162 @@
+body {
+
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#navbar {
+    top: 0;
+    transition: top 0.3s;
+}
+
+.link-on-hover {
+    color: #130f49 !important;
+    font-weight: bold;
+}
+
+.link-on-hover:hover {
+    color: #34a1cd !important;
+}
+
+div .row {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+p,
+a {
+    font-family: 'Montserrat' !important;
+    font-size: 16px !important;
+}
+
+::placeholder {
+    font-family: 'Montserrat' !important;
+}
+
+ul li {
+    font-family: 'Montserrat' !important;
+    font-size: 16px !important;
+}
+
+.font-color {
+    color: #130f49 !important;
+}
+
+.font-color-2 {
+    color: #34a1cd !important;
+}
+
+.font-color-3 {
+    color: #55527c;
+}
+
+.work-link-color {
+    color: #f8979b;
+}
+
+.work-link-color:hover {
+    color: #f8979b;
+}
+
+.heading {
+    font-family: 'Josefin Sans' !important;
+}
+
+.skills-card {
+    border-radius: 20px;
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+}
+
+.skills-card:hover {
+    -webkit-box-shadow: 0px 10px 30px -15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 30px -15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 30px -15px rgba(0, 0, 0, 0.3);
+}
+
+.portifolio-card {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(85, 82, 124, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 15px;
+}
+
+.portifolio-card:hover .overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.zoom img {
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+}
+
+.zoom img:hover {
+    -webkit-transform: scale(1.25);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
+}
+
+.send_btn {
+    color: #c6a16e !important;
+    border: 1px solid #c6a16e !important;
+}
+
+.send_btn:hover {
+    color: #ffffff !important;
+    border: 1px solid #c6a16e !important;
+    background: #c6a16e !important;
+}
+
+.footer-hover {
+    padding: 5px;
+    color: white;
+}
+
+.footer-hover:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .5s;
+    background-color: #fde3bf;
+    color: #c6a16e !important;
+}
